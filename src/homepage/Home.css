@@ -1,0 +1,213 @@
+.video-container {
+  display: flex;
+  justify-content: center;
+  width: 100%; /* Assure que le conteneur prend toute la largeur */
+  overflow: hidden; /* Évite tout débordement */
+}
+
+.home-video {
+  width: 100%; /* La vidéo prend toute la largeur */
+  height: auto; /* La hauteur est automatique pour garder le ratio */
+  border: none; /* Enlève la bordure si ce n'est pas nécessaire */
+  max-width: none; /* Enlève la limite de largeur */
+}
+
+
+.welcome {
+  position: absolute;
+  top: 810px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+  
+
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.gym {
+  font-weight: bold;
+  color: #003566;
+  font-size: 42px;
+}
+
+.golden {
+  font-weight: bold;
+  color: #F0CB46;
+  margin-right: 5px; 
+  font-size: 42px;
+}
+.container {
+  position: relative; /* Le conteneur parent doit être en position relative */
+  width: 100%;
+  height: 700px; /* Ajuster selon tes besoins */
+}
+
+.mo-container {
+  display: flex;
+  justify-content: center; /* Centre l'image et le texte horizontalement */
+  align-items: center; /* Aligne verticalement l'image et le texte */
+  margin-top: 40px; /* Ajoute un espace au-dessus du conteneur */
+}
+
+.mo img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ccc;
+  margin-right: 50px; /* Espace entre l'image et le texte */
+  transform: translate(400px, 0px);
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.founder {
+  font-weight: bold;
+  color: #000000;
+  text-align: left;
+  font-size: 23px;     
+  transform: translate(490px, -80px);
+  position: absolute; 
+}
+
+.fitness {
+  position: absolute; 
+  color: #000000;
+  text-align: left;
+  margin-top: 10px; 
+  line-height: 1.5; 
+  font-size: 20px;     
+  transform: translate(380px, -60px);
+}
+.MONSOONS {
+  font-weight: bold; 
+  color: #F0CB46; 
+  position: absolute; 
+  margin-top: 120px; 
+  font-size: 18px; 
+  transform: translate(200px, 0px);
+}
+/* Section des avis clients */
+.avis {
+  display: flex;                    
+  justify-content: center;
+  position: absolute;         
+  margin-top: 50px; /* Réduit l'espacement au-dessus des avis clients */             
+  font-weight: bold;                
+  font-size: 24px;                 
+  color: #000; 
+  text-decoration: underline;
+  text-align: center;
+  transform: translateY(200px); /* Optionnel, pour ajuster la position verticale */
+}
+
+/* Conteneur des rectangles */
+/* Conteneur des rectangles */
+.rectangle-container {
+  display: flex;
+  
+   /* Centre les rectangles horizontalement */
+  gap: 20px; /* Espacement entre les rectangles */
+  margin-top: 70px; /* Espace au-dessus des rectangles */
+}
+
+
+/* Style pour dessiner un rectangle */
+.rectangle {
+/* Style pour dessiner un rectangle */
+  width: 320px;   /* Largeur du rectangle */
+  height: 250px;  /* Hauteur du rectangle */
+  background-color: #E9E9E9; /* Couleur de fond (bleu) */
+ 
+  position: relative; /* Position relative pour permettre le translate */
+  transform: translate(60px,400px); /* Déplacer chaque rectangle sur l'axe X */
+}
+.rectangle1{
+  width: 320px;   /* Largeur du rectangle */
+  height: 250px;  /* Hauteur du rectangle */
+  background-color: #E9E9E9; /* Couleur de fond (bleu) */
+ 
+  position: relative; /* Position relative pour permettre le translate */
+  transform: translate(-640px,750px); 
+}
+.rectangle-container1 {
+  display: flex;
+  
+   /* Centre les rectangles horizontalement */
+  gap: 20px; /* Espacement entre les rectangles */
+  margin-top: 70px; /* Espace au-dessus des rectangles */
+}
+
+.joelle {
+  position: absolute;
+  top: 200px; /* Ajuste pour un meilleur placement vertical */
+  left: 150px; /* Ajuste pour un meilleur placement horizontal */
+  font-weight: bold;
+  color: #000;
+}
+.formuls{
+  display: flex;                    
+  justify-content: center;
+  position: absolute;         
+  margin-top: 50px; /* Réduit l'espacement au-dessus des avis clients */             
+  font-weight: bold;                
+  font-size: 24px;                 
+  color: #000; 
+  text-decoration: underline;
+  text-align: center;
+  transform: translate(490px,1000px); 
+
+
+}
+.partenaires {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 24px;
+  color: #000; /* Couleur du texte */
+  margin-top: 20px; /* Espace au-dessus du texte */
+  text-decoration: underline; /* Soulignement si désiré */
+  transform: translate(-130px,1000px); 
+}
+.partenaires {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centre le texte et l'image horizontalement */
+  font-weight: bold;
+  font-size: 24px;
+  color: #000; /* Couleur du texte */
+  margin-top: 20px; /* Espace au-dessus du texte */
+  text-decoration: underline; /* Soulignement si désiré */
+}
+
+.partenaire-image-container {
+  display: flex;
+  justify-content: center; /* Centre l'image horizontalement */
+  margin-top: 20px; /* Espace au-dessus de l'image */
+}
+
+.partenaire-image {
+  width: 150px; /* Largeur de l'image */
+  height: 150px; /* Hauteur de l'image */
+  border-radius: 50%; /* Rend l'image circulaire */
+  object-fit: cover; /* Pour s'assurer que l'image reste proportionnelle */
+  border: 2px solid #ccc; /* Optionnel : Bordure autour de l'image */
+}
+
+
+
+
+
+

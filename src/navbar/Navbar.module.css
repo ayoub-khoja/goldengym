@@ -1,0 +1,65 @@
+.main,*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.divlivraison{
+    text-align: center;
+    background-color: #CCA000;
+    font-weight: bold;  
+    font-style: italic;   
+    font-size: 20px;
+    
+}
+.divlogo1{
+    display: flex;
+    align-items: center;
+    background-color: #000814;
+    width: 100%;  
+  height: 60px;
+}
+.px{
+    color: white;
+  }
+
+.logo img{
+    width: 60px; 
+  height: 60px;
+  object-fit: cover;
+}
+.golden{
+    margin-left: 10px;
+  font-size: 24px; 
+  font-weight: bold; 
+  color :white
+}
+.divlogo2{
+    display: flex;
+    align-items: center;
+    background-color: #001D3D;
+    width: 100%;  
+  height: 60px; 
+}
+.contenue{
+    color :white
+}
+.contenue:nth-child(1) {
+    margin-right: 10px; /* Ajoute plus d'espace après Accueil */
+}
+.contenue:nth-child(2) { /* Pour Assistance */
+    margin-left: 300px; /* Ajoute un espace à gauche */
+}
+
+.contenue:nth-child(3) { /* Pour Cours */
+    margin-left: 300px; /* Ajoute un espace à gauche */
+}
+.contenue:nth-child(4) { /* Pour Assistance */
+    margin-left: 300px; /* Ajoute un espace à gauche */
+}
+
+.contenue:nth-child(5) { /* Pour Cours */
+    margin-left: 300px; /* Ajoute un espace à gauche */
+}
+/* src/homepage/home.css */
+
