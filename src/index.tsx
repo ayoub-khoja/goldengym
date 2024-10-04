@@ -5,8 +5,11 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Navbar from "./navbar/Navbar";
 import Home from "./homepage/Home";
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 1d0612e4e56db141e3002bcbf5e1dc7b4b0431db
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -15,7 +18,10 @@ root.render(
   <React.StrictMode>
     <Navbar />
     <Home/>
+<<<<<<< HEAD
     
+=======
+>>>>>>> 1d0612e4e56db141e3002bcbf5e1dc7b4b0431db
   </React.StrictMode>
 );
 

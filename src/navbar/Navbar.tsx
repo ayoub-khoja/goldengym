@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from "react";
 import styles from "./Navbar.module.css";
 import logo from './img/logo.png';
@@ -8,6 +9,13 @@ function Navbar() {
   function handleChange(event: { target: { value: React.SetStateAction<string>; }; } ){
     setValue(event.target.value)
   }
+=======
+import React from "react";
+import styles from "./Navbar.module.css";
+import logo from './img/logo.png';
+
+function Navbar() {
+>>>>>>> 1d0612e4e56db141e3002bcbf5e1dc7b4b0431db
   return (
     <main className={styles.main}>
       <div className={styles.divlivraison}>
@@ -20,6 +28,7 @@ function Navbar() {
             <img src={logo} alt="Logo" />
           </div>
           <div className={styles.golden}>GOLDEN GYM</div>
+<<<<<<< HEAD
           <div className={styles.BarreDeRecherche}>
             <div className={styles.input}>
               <input type="text" value={value} onChange={handleChange} />
@@ -28,6 +37,8 @@ function Navbar() {
               </button>
             </div>
           </div>
+=======
+>>>>>>> 1d0612e4e56db141e3002bcbf5e1dc7b4b0431db
         </div>
       </nav>
       <nav>
