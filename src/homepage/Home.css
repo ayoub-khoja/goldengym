@@ -1,0 +1,150 @@
+.video-container {
+  display: flex;
+  justify-content: center;
+  width: 100%; /* Assure que le conteneur prend toute la largeur */
+  overflow: hidden; /* Évite tout débordement */
+}
+
+.home-video {
+  width: 100%; /* La vidéo prend toute la largeur */
+  height: auto; /* La hauteur est automatique pour garder le ratio */
+  border: none; /* Enlève la bordure si ce n'est pas nécessaire */
+  max-width: none; /* Enlève la limite de largeur */
+}
+
+.welcome {
+  position: absolute;
+  top: 810px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.gym {
+  font-weight: bold;
+  color: #003566;
+  font-size: 42px;
+}
+
+.golden {
+  font-weight: bold;
+  color: #F0CB46;
+  margin-right: 5px; 
+  font-size: 42px;
+}
+
+.mo-container {
+  display: flex;
+  justify-content: center; /* Centre l'image et le texte horizontalement */
+  align-items: center; /* Aligne verticalement l'image et le texte */
+  margin-top: 40px; /* Ajoute un espace au-dessus du conteneur */
+}
+
+.mo img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ccc;
+  margin-right: 50px; /* Espace entre l'image et le texte */
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.founder {
+  font-weight: bold;
+  color: #000000;
+  text-align: left;
+  font-size: 23px;     
+  position: relative; /* Position relative pour un placement naturel */
+  margin-top: -80px; /* Ajustement pour l'alignement */
+}
+
+.fitness {
+  color: #000000;
+  text-align: left;
+  margin-top: 10px; 
+  line-height: 1.5; 
+  font-size: 20px;     
+}
+
+.MONSOONS {
+  font-weight: bold; 
+  color: #F0CB46; 
+  margin-top: 20px; /* Ajout d'espacement entre MONSOONS et le texte précédent */
+  font-size: 18px; 
+}
+
+.avis {
+  display: flex;                    
+  justify-content: center;
+  margin-top: 50px; /* Réduit l'espacement au-dessus des avis clients */             
+  font-weight: bold;                
+  font-size: 24px;                 
+  color: #000; 
+  text-decoration: underline;
+  text-align: center;
+}
+
+.rectangle-container {
+  display: flex;
+  gap: 40px; /* Espacement de 40px entre les rectangles */
+  margin-top: 20px; /* Espace au-dessus des rectangles */
+  justify-content: center; /* Centre les rectangles horizontalement */
+}
+
+.rectangle {
+  width: 320px;   /* Largeur du rectangle */
+  height: 250px;  /* Hauteur du rectangle */
+  background-color: #E9E9E9; /* Couleur de fond (gris) */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #000; /* Couleur du texte à l'intérieur du rectangle */
+}
+
+.rectangle-joelle {
+  width: 320px;  /* Largeur du rectangle JOELLE */
+  height: 100px; /* Ajustez la hauteur selon vos besoins */
+  background-color: #E9E9E9; /* Couleur de fond (gris) */
+  display: flex; 
+  justify-content: center; /* Centre le texte horizontalement */
+  align-items: center; /* Centre le texte verticalement */
+  transform: translate(200, 20px); /* Translation sur l'axe Y de 20px vers le bas */
+  margin-top: 20px; /* Espace au-dessus du rectangle JOELLE */
+  font-weight: bold; 
+  color: #000; /* Couleur du texte à l'intérieur du rectangle JOELLE */
+}
+
+.formuls {
+  display: flex;                    
+  justify-content: center;
+  margin-top: 50px; /* Réduit l'espacement au-dessus des avis clients */             
+  font-weight: bold;                
+  font-size: 24px;                 
+  color: #000; 
+  text-decoration: underline;
+}
+
+.partenaires {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 20px; /* Ajustez la taille de police selon vos besoins */
+  margin-top: 20px; /* Espace entre le texte FORMULS et Nos Partenaires */
+  color: #000; /* Couleur du texte, ajustez si nécessaire */
+}
