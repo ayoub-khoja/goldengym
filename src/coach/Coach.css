@@ -1,0 +1,28 @@
+.coach{
+    position: absolute; /* Positionne le texte selon le parent */
+    top: 30%; /* Position verticale, 50% depuis le haut */
+    left: 50%; /* Position horizontale, 50% depuis la gauche */
+    transform: translate(-50%, -50%); /* Centre parfaitement le texte */
+    font-size: 34px; /* Taille du texte (24 pixels ici) */
+    color: #090909; /* Couleur du texte */
+    font-weight: bold; /* Texte en gras */
+
+}
+.line {
+    border: none;
+    top: 135px;
+    position: relative;
+    height: 2px; /* Épaisseur de la ligne */
+    background-color: black; /* Couleur de la ligne */
+    width: 100%; /* Largeur de la ligne */
+    margin: 0 auto; /* Centre la ligne horizontalement */
+}
+.coach1{
+width: 250px; /* Largeur de l'image */
+height: 250px; /* Hauteur de l'image */
+border-radius: 50%; /* Rend l'image circulaire */
+object-fit: cover; /* Conserve les proportions de l'image */
+position: absolute; /* Positionnement absolu par rapport à l'élément parent ou au document */
+top: 370px; /* Ajuste la position à partir du haut */
+left: 42%; /* Ajuste la position à partir de la gauche */
+}

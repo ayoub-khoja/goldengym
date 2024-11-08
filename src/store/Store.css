@@ -1,0 +1,222 @@
+/* Navbar */
+.navbarstore {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: relative;
+}
+
+/* Image du store - Positionner l'image sous la navbar */
+.store-image {
+    width: 100%;
+    height: 1000px;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    z-index: -1;
+}
+
+/* Texte dans la navbar */
+.store-text {
+    font-size: 1.5rem;
+    color: #001D3D;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+/* Bouton dropdown */
+.dropdown-btn {
+    background: none;
+    border: none;
+    color: #001D3D;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+/* Triangle à côté du texte Protéine */
+.triangle {
+    margin-left: 5px;
+    font-size: 12px;
+    transition: transform 0.3s ease;
+}
+
+.triangle.up {
+    transform: rotate(180deg);
+}
+
+.triangle.down {
+    transform: rotate(0deg);
+}
+
+/* Liste déroulante */
+.dropdown-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    z-index: 10;
+}
+
+/* Eléments de la liste */
+.dropdown-item {
+    padding: 10px;
+    color: #001D3D;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.dropdown-item:hover {
+    background-color: #f0f0f0;
+}
+
+/* Texte centré "Our Store" */
+.centered-text {
+    text-align: center;
+    margin-top: 1100px;
+    font-size: 2rem;
+    color: #000000;
+    font-weight: bold;
+}
+
+/* Style de base pour les flèches */
+.carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    color: #001D3D;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+}
+
+/* Flèche gauche */
+.left-arrow {
+    left: 20px;
+}
+
+/* Flèche droite */
+.right-arrow {
+    right: 20px;
+}
+
+/* Style pour la disposition des images dans le carrousel */
+.carousel {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.carousel-images {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Image principale */
+.image-principale {
+    width: 300px;
+    height: auto;
+}
+
+/* Images plus petites */
+.small-image {
+    width: 100px;
+    height: auto;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+.small-image:hover {
+    opacity: 1;
+}
+
+.centered-text1,
+.centered-text2,
+.centered-text3,
+.centered-text4,
+.centered-text5 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 2rem;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Produits organisés en 4 par ligne sans conteneur */
+.product {
+    width: 23%; /* Largeur pour 4 produits par ligne */
+    height: 400px; /* Hauteur fixe */
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    float: left;
+    margin: 1%; /* Espacement entre les produits */
+}
+
+/* Image du produit - S'affiche entièrement */
+.product-image {
+    width: 100%;
+    height: 200px; /* Hauteur fixe pour les images */
+    object-fit: contain; /* Ajuste l'image sans la couper */
+    border-radius: 10px;
+}
+
+/* Nom du produit */
+.product-name {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+/* Bouton ajouter au panier */
+.add-to-cart-btn {
+    background-color: #F0CB46;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: #003566;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #fbc02d;
+}
+
+/* Clearfix */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

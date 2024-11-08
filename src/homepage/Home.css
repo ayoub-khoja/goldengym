@@ -12,10 +12,6 @@
   max-width: none; /* Enlève la limite de largeur */
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 1d0612e4e56db141e3002bcbf5e1dc7b4b0431db
 .welcome {
   position: absolute;
   top: 810px;
@@ -26,11 +22,6 @@
   font-weight: bold;
   font-size: 20px;
 }
-<<<<<<< HEAD
-=======
-  
-
->>>>>>> 1d0612e4e56db141e3002bcbf5e1dc7b4b0431db
 
 .center-container {
   display: flex;
@@ -51,108 +42,64 @@
   margin-right: 5px; 
   font-size: 42px;
 }
-<<<<<<< HEAD
-=======
-.container {
-  position: relative; /* Le conteneur parent doit être en position relative */
-  width: 100%;
-  height: 700px; /* Ajuster selon tes besoins */
-}
->>>>>>> 1d0612e4e56db141e3002bcbf5e1dc7b4b0431db
-
-.mo-container {
-  display: flex;
-  justify-content: center; /* Centre l'image et le texte horizontalement */
-  align-items: center; /* Aligne verticalement l'image et le texte */
-  margin-top: 40px; /* Ajoute un espace au-dessus du conteneur */
-}
-
-.mo img {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 2px solid #ccc;
-  margin-right: 50px; /* Espace entre l'image et le texte */
-<<<<<<< HEAD
-=======
-  transform: translate(400px, 0px);
->>>>>>> 1d0612e4e56db141e3002bcbf5e1dc7b4b0431db
-}
-
-.text-container {
-  display: flex;
-  flex-direction: column;
-}
-
 .founder {
   font-weight: bold;
   color: #000000;
   text-align: left;
   font-size: 23px;     
-<<<<<<< HEAD
-  position: relative; /* Position relative pour un placement naturel */
-  margin-top: -80px; /* Ajustement pour l'alignement */
+  position: absolute; /* Utiliser absolute pour un contrôle total sur la position */
+  left: 800px; /* Ajustez cette valeur pour déplacer à gauche ou à droite */
+  top: 950px; /* Ajustez cette valeur pour déplacer vers le haut ou vers le bas */
+  transition: left 0.3s ease, top 0.3s ease; /* Ajoute une transition douce lors du déplacement */
+}
+.mo {
+  position: absolute; /* Pour pouvoir positionner l'élément où vous le souhaitez */
+  left: 400px; /* Ajustez cette valeur pour déplacer à gauche ou à droite */
+  top: 950px; /* Ajustez cette valeur pour déplacer vers le haut ou vers le bas */
 }
 
+.mo img {
+  width: 200px; /* Largeur de l'image */
+  height: 200px; /* Hauteur de l'image */
+  border-radius: 50%; /* Rend l'image circulaire */
+  object-fit: cover; /* Assure que l'image remplit le cercle sans déformation */
+}
 .fitness {
-=======
-  transform: translate(490px, -80px);
-  position: absolute; 
+  position: absolute; /* Permet de positionner l'élément où vous le souhaitez */
+  left: 650px; /* Ajustez cette valeur pour déplacer horizontalement */
+  top: 1000px; /* Ajustez cette valeur pour déplacer verticalement */
+  color: #000000; /* Couleur du texte */
+  font-size: 20px; /* Taille de la police */
+  text-align: left; /* Alignement du texte */
+  line-height: 1.5; /* Hauteur de ligne pour l'espacement */
 }
-
-.fitness {
-  position: absolute; 
->>>>>>> 1d0612e4e56db141e3002bcbf5e1dc7b4b0431db
-  color: #000000;
-  text-align: left;
-  margin-top: 10px; 
-  line-height: 1.5; 
-  font-size: 20px;     
-<<<<<<< HEAD
-}
-
 .MONSOONS {
-  font-weight: bold; 
-  color: #F0CB46; 
-  margin-top: 20px; /* Ajout d'espacement entre MONSOONS et le texte précédent */
-  font-size: 18px; 
+  position: absolute; /* Permet de positionner l'élément où vous le souhaitez */
+  left: 430px; /* Ajustez cette valeur pour déplacer horizontalement */
+  top: 1170px; /* Ajustez cette valeur pour déplacer verticalement */
+  color: #F0CB46; /* Choisissez la couleur que vous voulez */
+  font-weight: bold; /* Rendre le texte en gras */
+  font-size: 18px; /* Taille de la police */
 }
+
+
 
 .avis {
   display: flex;                    
   justify-content: center;
-=======
-  transform: translate(380px, -60px);
-}
-.MONSOONS {
-  font-weight: bold; 
-  color: #F0CB46; 
-  position: absolute; 
-  margin-top: 120px; 
-  font-size: 18px; 
-  transform: translate(200px, 0px);
-}
-/* Section des avis clients */
-.avis {
-  display: flex;                    
-  justify-content: center;
-  position: absolute;         
->>>>>>> 1d0612e4e56db141e3002bcbf5e1dc7b4b0431db
   margin-top: 50px; /* Réduit l'espacement au-dessus des avis clients */             
   font-weight: bold;                
-  font-size: 24px;                 
+  font-size: 24px;   
+  margin-top: 400px;              
   color: #000; 
   text-decoration: underline;
   text-align: center;
-<<<<<<< HEAD
 }
 
 .rectangle-container {
-  display: flex;
-  gap: 40px; /* Espacement de 40px entre les rectangles */
-  margin-top: 20px; /* Espace au-dessus des rectangles */
+  display: flex; /* Utiliser Flexbox pour aligner les rectangles */
   justify-content: center; /* Centre les rectangles horizontalement */
+  margin-top: 20px; /* Ajoute un espace au-dessus du conteneur */
 }
 
 .rectangle {
@@ -160,140 +107,597 @@
   height: 250px;  /* Hauteur du rectangle */
   background-color: #E9E9E9; /* Couleur de fond (gris) */
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: center; /* Centre le texte horizontalement */
+  align-items: center; /* Centre le texte verticalement */
   font-weight: bold;
   color: #000; /* Couleur du texte à l'intérieur du rectangle */
+  margin: 0 20px; /* Ajoute un espace de 20px à gauche et à droite */
 }
 
-.rectangle-joelle {
-  width: 320px;  /* Largeur du rectangle JOELLE */
-  height: 100px; /* Ajustez la hauteur selon vos besoins */
+.joelle {
+  /* Aucun ajustement de position ici */
+}
+
+.romio {
+  
+}
+
+.tome {
+  /* Aucun ajustement de position ici */
+}
+
+
+
+.rectangle-angela {
+  width: 320px;  /* Largeur du rectangle */
+  height: 250px; /* Hauteur du rectangle */
   background-color: #E9E9E9; /* Couleur de fond (gris) */
   display: flex; 
   justify-content: center; /* Centre le texte horizontalement */
   align-items: center; /* Centre le texte verticalement */
-  transform: translate(200, 20px); /* Translation sur l'axe Y de 20px vers le bas */
-  margin-top: 20px; /* Espace au-dessus du rectangle JOELLE */
+  position: absolute; /* Positionnement absolu */
+  top: 1650px; /* Ajustez la position verticale */
+  left: 595px; /* Ajustez la position horizontale */
   font-weight: bold; 
-  color: #000; /* Couleur du texte à l'intérieur du rectangle JOELLE */
+  color: #000; /* Couleur du texte à l'intérieur du rectangle */
 }
+
+/* Nouvelle classe pour le texte "ANGELA" */
+.angela-text {
+  position: relative; /* Position relative pour un placement naturel */
+  transform: translate(130px, -80px); /* Ajustez cette valeur pour déplacer le texte */
+  color: #010101; /* Choisissez la couleur du texte que vous souhaitez */
+}
+.angela-image {
+  width: 100px; /* Ajustez la largeur de l'image */
+  height: auto; /* Hauteur automatique pour garder le ratio */
+  margin: 10px 0; /* Espace autour de l'image, ajustez selon vos besoins */
+  position: relative; /* Position relative pour le positionnement */
+  transform: translate(-150px,50px); /* Déplacez l'image à votre choix */
+}
+.experience-text {
+  margin-top: 10px; /* Espace entre "ANGELA" et "magnifique expérience" */
+  position: relative; /* Position relative pour un placement naturel */
+  transform: translate(10px, 0px);
+  font-weight: normal; /* Ajustez le poids de la police si nécessaire */
+  color: #000; /* Couleur du texte, ajustez si nécessaire */
+  font-size: 18px; /* Ajustez la taille de police selon vos besoins */
+  text-align: center; /* Centrer le texte */
+  white-space: nowrap;
+}
+.opinion-text {
+  font-size: 24px; /* Taille du texte */
+  font-weight: bold; /* Texte en gras */
+  color: #000; /* Couleur du texte */
+  position: absolute; /* Position absolue pour un contrôle précis */
+  top: 2050px; /* Ajuste la position verticale */
+  left: 300px; /* Ajuste la position horizontale */
+  transform: translate(0, 0); /* Ajustement supplémentaire si nécessaire */
+  font-size: 18px;
+}
+.comment-text {
+  font-size: 16px; /* Taille de la police */
+  color: #000; /* Couleur du texte */
+  opacity: 0.5; /* Opacité */
+  position: relative; /* Position relative pour un placement naturel */
+  top: 470px; /* Ajustez cette valeur pour déplacer vers le bas */
+  left: 590px; /* Ajustez cette valeur pour déplacer vers la droite */
+}
+.rectangleenv {
+  width: 100px; /* Largeur du rectangle */
+  height: 35px; /* Hauteur du rectangle */
+  background-color: #CCA000; /* Couleur de fond gris clair */
+  /* Bordure noire */
+  position: absolute; /* Positionnement absolu */
+  top: 2048px; /* Ajustez cette valeur pour régler la position verticale */
+  left: 1029px; /* Ajustez cette valeur pour régler la position horizontale */
+  border-radius: 10px; /* Arrondir les coins si nécessaire */
+}
+.envoyer {
+  font-size: 15px; /* Taille de la police */
+  color: #000; /* Couleur du texte */
+  position: absolute; /* Positionnement absolu pour déplacer le texte */
+  top: 2055px; /* Ajustez cette valeur pour régler la position verticale */
+  left: 1050px; /* Ajustez cette valeur pour régler la position horizontale */
+  font-weight: bold;
+}
+
+
+
+.rectanglecomm {
+  width: 600px; /* Largeur du rectangle */
+  height: 50px; /* Hauteur du rectangle */
+  background-color: #E9E9E9; /* Couleur de fond gris clair */
+  /* Bordure noire */
+  display: flex;
+  justify-content: center; /* Centre le texte horizontalement */
+  align-items: center; /* Centre le texte verticalement */
+  position: absolute; /* Vous permet de régler la position du rectangle */
+  top: 2040px; /* Position verticale à partir du haut */
+  left: 550px; /* Position horizontale à partir de la gauche */
+  font-weight: bold;
+  color: #000; /* Couleur du texte */
+  border-radius: 10px;
+}
+
+
+
 
 .formuls {
   display: flex;                    
   justify-content: center;
-=======
-  transform: translateY(200px); /* Optionnel, pour ajuster la position verticale */
-}
-
-/* Conteneur des rectangles */
-/* Conteneur des rectangles */
-.rectangle-container {
-  display: flex;
-  
-   /* Centre les rectangles horizontalement */
-  gap: 20px; /* Espacement entre les rectangles */
-  margin-top: 70px; /* Espace au-dessus des rectangles */
-}
-
-
-/* Style pour dessiner un rectangle */
-.rectangle {
-/* Style pour dessiner un rectangle */
-  width: 320px;   /* Largeur du rectangle */
-  height: 250px;  /* Hauteur du rectangle */
-  background-color: #E9E9E9; /* Couleur de fond (bleu) */
- 
-  position: relative; /* Position relative pour permettre le translate */
-  transform: translate(60px,400px); /* Déplacer chaque rectangle sur l'axe X */
-}
-.rectangle1{
-  width: 320px;   /* Largeur du rectangle */
-  height: 250px;  /* Hauteur du rectangle */
-  background-color: #E9E9E9; /* Couleur de fond (bleu) */
- 
-  position: relative; /* Position relative pour permettre le translate */
-  transform: translate(-640px,750px); 
-}
-.rectangle-container1 {
-  display: flex;
-  
-   /* Centre les rectangles horizontalement */
-  gap: 20px; /* Espacement entre les rectangles */
-  margin-top: 70px; /* Espace au-dessus des rectangles */
-}
-
-.joelle {
-  position: absolute;
-  top: 200px; /* Ajuste pour un meilleur placement vertical */
-  left: 150px; /* Ajuste pour un meilleur placement horizontal */
-  font-weight: bold;
-  color: #000;
-}
-.formuls{
-  display: flex;                    
-  justify-content: center;
-  position: absolute;         
->>>>>>> 1d0612e4e56db141e3002bcbf5e1dc7b4b0431db
   margin-top: 50px; /* Réduit l'espacement au-dessus des avis clients */             
   font-weight: bold;                
   font-size: 24px;                 
   color: #000; 
+  margin-top: 550px;
   text-decoration: underline;
-<<<<<<< HEAD
+}
+.rectangleab1 {
+  width: 300px; /* Largeur du rectangle */
+  height: 80px; /* Hauteur du rectangle */
+  background-color: #001D3D; /* Couleur de fond par défaut */
+  border-top-left-radius: 15%; /* Arrondir le coin supérieur gauche */
+  border-top-right-radius: 15%;
+  position: absolute; /* Permet de changer la position */
+  top: 2260px; /* Position verticale */
+  left: 250px; /* Position horizontale */
+  
+}
+.departrap {
+  color: #fafafa; /* Changez ceci pour la couleur désirée */
+  font-size: 24px; /* Taille de police, ajustez selon vos besoins */
+  font-weight: bold; /* Met le texte en gras */
+  position: absolute; /* Utiliser un positionnement absolu pour déplacer le texte */
+  top: 2280px; /* Ajustez la position verticale */
+  left: 26.5%; /* Centre horizontalement */
+  transform: translateX(-50%);
+  z-index: 3; /* Centre parfaitement le texte */
 }
 
-=======
-  text-align: center;
-  transform: translate(490px,1000px); 
-
+.rectangleab11 {
+  width: 300px; /* Largeur du rectangle */
+  height: 150px; /* Hauteur du rectangle */
+  background-color: #D9D9D9; /* Couleur de fond par défaut */
+  position: absolute; /* Permet de changer la position */
+  top: 2310px; /* Position verticale */
+  left: 950px; /* Position horizontale */
+  
+}
+.tnd1 {
+  color: #003566; /* Changez ceci pour la couleur désirée */
+  font-size: 26px; /* Taille de police, ajustez selon vos besoins */
+  font-weight: bold; /* Met le texte en gras */
+  position: absolute; /* Utiliser un positionnement absolu pour déplacer le texte */
+  top: 50px; /* Ajustez la position verticale */
+  left: -590px; /* Centre horizontalement */
+  z-index: 3;
+  
+}
+.mois1{
+  position: absolute; /* Utiliser absolute pour positionner le texte où tu veux */
+  top: 2400px; /* Ajuste la position verticale */
+  left: 370px; /* Ajuste la position horizontale */
+  z-index: 3;
+  font-size: 19px; /* Taille de la police, modifie selon ton besoin */
+  font-weight: bold; /* Rendre le texte en gras, si nécessaire */
+  color: #003566;
 
 }
->>>>>>> 1d0612e4e56db141e3002bcbf5e1dc7b4b0431db
+.je1{
+  width: 150px; /* Largeur du rectangle */
+  height: 35px; /* Hauteur du rectangle */
+  background-color: #CCA000; /* Couleur de fond gris clair */
+  /* Bordure noire */
+  position: absolute; /* Positionnement absolu */
+  top: 2440px; /* Ajustez cette valeur pour régler la position verticale */
+  left: 325px; /* Ajustez cette valeur pour régler la position horizontale */
+  border-radius: 10px; /* Arrondir les coins si nécessaire */
+  z-index: 3;
+}
+.jem1{
+  position: absolute; /* Utiliser absolute pour positionner le texte où tu veux */
+  top: 2445px; /* Ajuste la position verticale */
+  left: 348px; /* Ajuste la position horizontale */
+  z-index: 3;
+  font-size: 18px; /* Taille de la police, modifie selon ton besoin */
+  font-weight: bold; /* Rendre le texte en gras, si nécessaire */
+  color: #000;
+}
+.rectangleab111 {
+  width: 300px; /* Largeur du rectangle */
+  height: 230px; /* Hauteur du rectangle */
+  background-color: #EFEFEF; /* Couleur de fond par défaut */
+  border-bottom-left-radius: 5%; /* Arrondir le coin supérieur gauche */
+  border-bottom-right-radius: 5%;
+  position: absolute; /* Permet de changer la position */
+  top: 2450px; /* Position verticale */
+  left: 250px; /* Position horizontale */
+  z-index: 0;
+}
+.energboost {
+  color: #efe4e4; /* Changez ceci pour la couleur désirée */
+  font-size: 24px; /* Taille de police, ajustez selon vos besoins */
+  font-weight: bold; /* Met le texte en gras */
+  position: absolute; /* Utiliser un positionnement absolu pour déplacer le texte */
+  top: 2285px; /* Ajustez la position verticale */
+  left: 73%; /* Centre horizontalement */
+  transform: translateX(-50%); /* Centre parfaitement le texte */
+  z-index: 5;
+}
+.tnd2{
+  color: #003566; /* Changez ceci pour la couleur désirée */
+  font-size: 26px; /* Taille de police, ajustez selon vos besoins */
+  font-weight: bold; /* Met le texte en gras */
+  position: absolute; /* Utiliser un positionnement absolu pour déplacer le texte */
+  top: 2359px; /* Ajustez la position verticale */
+  left: 1055px; /* Centre horizontalement */
+  z-index: 3;
+}
+.mois3{
+  position: absolute; /* Utiliser absolute pour positionner le texte où tu veux */
+  top: 2400px; /* Ajuste la position verticale */
+  left: 1080px; /* Ajuste la position horizontale */
+  z-index: 3;
+  font-size: 19px; /* Taille de la police, modifie selon ton besoin */
+  font-weight: bold; /* Rendre le texte en gras, si nécessaire */
+  color: #003566;
+}
+.je2{
+  width: 150px; /* Largeur du rectangle */
+  height: 35px; /* Hauteur du rectangle */
+  background-color: #CCA000; /* Couleur de fond gris clair */
+  /* Bordure noire */
+  position: absolute; /* Positionnement absolu */
+  top: 2435px; /* Ajustez cette valeur pour régler la position verticale */
+  left: 1030px; /* Ajustez cette valeur pour régler la position horizontale */
+  border-radius: 10px; /* Arrondir les coins si nécessaire */
+  z-index: 3;
+
+}
+.jem2{
+  position: absolute; /* Utiliser absolute pour positionner le texte où tu veux */
+  top: 2439px; /* Ajuste la position verticale */
+  left: 1051px; /* Ajuste la position horizontale */
+  z-index: 3;
+  font-size: 18px; /* Taille de la police, modifie selon ton besoin */
+  font-weight: bold; /* Rendre le texte en gras, si nécessaire */
+  color: #000;
+}
+.rectangleab2 {
+  width: 300px; /* Largeur du rectangle */
+  height: 80px; /* Hauteur du rectangle */
+  background-color: #001D3D; /* Couleur de fond par défaut */
+  border-top-left-radius: 15%; /* Arrondir le coin supérieur gauche */
+  border-top-right-radius: 15%;
+  position: absolute; /* Permet de changer la position */
+  top: 2260px; /* Position verticale */
+  left: 950px; /* Position horizontale */
+}
+
+.rectangleab22 {
+  width: 300px; /* Largeur du rectangle */
+  height: 115px; /* Hauteur du rectangle */
+  background-color: #D9D9D9; /* Couleur de fond par défaut */
+  position: absolute; /* Permet de changer la position */
+  top: 2340px; /* Position verticale */
+  left: 250px; /* Position horizontale */
+}
+.rectangleab222 {
+  width: 300px; /* Largeur du rectangle */
+  height: 230px; /* Hauteur du rectangle */
+  background-color: #EFEFEF; /* Couleur de fond par défaut */
+  position: absolute; /* Permet de changer la position */
+  top: 2450px; /* Position verticale */
+  left: 950px; /* Position horizontale */
+  border-bottom-left-radius: 5%; /* Arrondir le coin supérieur gauche */
+  border-bottom-right-radius: 5%;
+  
+}
+.rectangleab3{
+  width: 300px; /* Largeur du rectangle */
+  height: 80px; /* Hauteur du rectangle */
+  background-color: #001D3D; /* Couleur de fond par défaut */
+  border-top-left-radius: 15%; /* Arrondir le coin supérieur gauche */
+  border-top-right-radius: 15%;
+  position: absolute; /* Permet de changer la position */
+  top: 2790px; /* Position verticale */
+  left: 250px; /* Position horizontale */
+}
+.transfo{
+  color: #fafafa; /* Changez ceci pour la couleur désirée */
+  font-size: 24px; /* Taille de police, ajustez selon vos besoins */
+  font-weight: bold; /* Met le texte en gras */
+  position: absolute; /* Utiliser un positionnement absolu pour déplacer le texte */
+  top: 2810px; /* Ajustez la position verticale */
+  left: 26.5%; /* Centre horizontalement */
+  transform: translateX(-50%);
+  z-index: 3; /* Centre parfaitement le texte */
+}
+.rectangleab33 {
+  
+    width: 300px; /* Largeur du rectangle */
+    height: 115px; /* Hauteur du rectangle */
+    background-color: #D9D9D9; /* Couleur de fond par défaut */
+    position: absolute; /* Permet de changer la position */
+    top: 2867px; /* Position verticale */
+    left: 250px; /* Position horizontale */
+  
+}
+.mois12{
+  position: absolute; /* Utiliser absolute pour positionner le texte où tu veux */
+  top: 2921px; /* Ajuste la position verticale */
+  left: 370px; /* Ajuste la position horizontale */
+  z-index: 3;
+  font-size: 19px; /* Taille de la police, modifie selon ton besoin */
+  font-weight: bold; /* Rendre le texte en gras, si nécessaire */
+  color: #003566;
+}
+.tnd400{
+  color: #003566; /* Changez ceci pour la couleur désirée */
+  font-size: 26px; /* Taille de police, ajustez selon vos besoins */
+  font-weight: bold; /* Met le texte en gras */
+  position: absolute; /* Utiliser un positionnement absolu pour déplacer le texte */
+  top: 2885px; /* Ajustez la position verticale */
+  left: 355px; /* Centre horizontalement */
+  z-index: 3;
+}
+.jem3{
+
+  position: absolute; /* Utiliser absolute pour positionner le texte où tu veux */
+  top: 2965px; /* Ajuste la position verticale */
+  left: 348px; /* Ajuste la position horizontale */
+  z-index: 3;
+  font-size: 18px; /* Taille de la police, modifie selon ton besoin */
+  font-weight: bold; /* Rendre le texte en gras, si nécessaire */
+  color: #000;
+
+}
+.je3{
+  width: 150px; /* Largeur du rectangle */
+  height: 35px; /* Hauteur du rectangle */
+  background-color: #CCA000; /* Couleur de fond gris clair */
+  /* Bordure noire */
+  position: absolute; /* Positionnement absolu */
+  top: 2960px; /* Ajustez cette valeur pour régler la position verticale */
+  left: 325px; /* Ajustez cette valeur pour régler la position horizontale */
+  border-radius: 10px; /* Arrondir les coins si nécessaire */
+  z-index: 3;
+}
+.rectangleab333 {
+  width: 300px; /* Largeur du rectangle */
+  height: 230px; /* Hauteur du rectangle */
+  background-color: #EFEFEF; /* Couleur de fond par défaut */
+  border-bottom-left-radius: 5%; /* Arrondir le coin supérieur gauche */
+  border-bottom-right-radius: 5%;
+  position: absolute; /* Permet de changer la position */
+  top: 2980px; /* Position verticale */
+  left: 250px; /* Position horizontale */
+  z-index: 0;
+}
+.rectangleab4 {
+  width: 300px; /* Largeur du rectangle */
+  height: 80px; /* Hauteur du rectangle */
+  background-color: #001D3D; /* Couleur de fond par défaut */
+  border-top-left-radius: 15%; /* Arrondir le coin supérieur gauche */
+  border-top-right-radius: 15%;
+  position: absolute; /* Permet de changer la position */
+  top: 2790px; /* Position verticale */
+  left: 950px; /* Position horizontale */
+}
+.jem4{
+  position: absolute; /* Utiliser absolute pour positionner le texte où tu veux */
+  top: 2967px; /* Ajuste la position verticale */
+  left: 1051px; /* Ajuste la position horizontale */
+  z-index: 3;
+  font-size: 18px; /* Taille de la police, modifie selon ton besoin */
+  font-weight: bold; /* Rendre le texte en gras, si nécessaire */
+  color: #000;
+  z-index: 4;
+
+}
+.je4{
+  width: 150px; /* Largeur du rectangle */
+  height: 35px; /* Hauteur du rectangle */
+  background-color: #CCA000; /* Couleur de fond gris clair */
+  /* Bordure noire */
+  position: absolute; /* Positionnement absolu */
+  top: 2965px; /* Ajustez cette valeur pour régler la position verticale */
+  left: 1030px; /* Ajustez cette valeur pour régler la position horizontale */
+  border-radius: 10px; /* Arrondir les coins si nécessaire */
+  z-index: 3;
+
+}
+.durable{
+  color: #efe4e4; /* Changez ceci pour la couleur désirée */
+  font-size: 24px; /* Taille de police, ajustez selon vos besoins */
+  font-weight: bold; /* Met le texte en gras */
+  position: absolute; /* Utiliser un positionnement absolu pour déplacer le texte */
+  top: 2810px; /* Ajustez la position verticale */
+  left: 73%; /* Centre horizontalement */
+  transform: translateX(-50%); /* Centre parfaitement le texte */
+  z-index: 5;
+}
+.tnd200{
+  color: #003566; /* Changez ceci pour la couleur désirée */
+  font-size: 26px; /* Taille de police, ajustez selon vos besoins */
+  font-weight: bold; /* Met le texte en gras */
+  position: absolute; /* Utiliser un positionnement absolu pour déplacer le texte */
+  top: 2890px; /* Ajustez la position verticale */
+  left: 1055px; /* Centre horizontalement */
+  z-index: 3;
+}
+.mois6{
+  position: absolute; /* Utiliser absolute pour positionner le texte où tu veux */
+  top: 2925px; /* Ajuste la position verticale */
+  left: 1080px; /* Ajuste la position horizontale */
+  z-index: 3;
+  font-size: 19px; /* Taille de la police, modifie selon ton besoin */
+  font-weight: bold; /* Rendre le texte en gras, si nécessaire */
+  color: #003566;
+}
+.rectangleab44 {
+  width: 300px; /* Largeur du rectangle */
+  height: 115px; /* Hauteur du rectangle */
+  background-color: #D9D9D9; /* Couleur de fond par défaut */
+  position: absolute; /* Permet de changer la position */
+  top: 2870px; /* Position verticale */
+  left: 950px; /* Position horizontale */
+  
+}
+.rectangleab444 {
+  width: 300px; /* Largeur du rectangle */
+  height: 230px; /* Hauteur du rectangle */
+  background-color: #EFEFEF; /* Couleur de fond par défaut */
+  position: absolute; /* Permet de changer la position */
+  top: 2985px; /* Position verticale */
+  left: 950px; /* Position horizontale */
+  border-bottom-left-radius: 5%; /* Arrondir le coin supérieur gauche */
+  border-bottom-right-radius: 5%;
+  
+}
+.rectangleab5{
+  width: 300px; /* Largeur du rectangle */
+  height: 80px; /* Hauteur du rectangle */
+  background-color: #001D3D; /* Couleur de fond par défaut */
+  border-top-left-radius: 15%; /* Arrondir le coin supérieur gauche */
+  border-top-right-radius: 15%;
+  position: absolute; /* Permet de changer la position */
+  top: 3310px; /* Position verticale */
+  left: 599px; /* Position horizontale */
+}
+.jem5{
+  position: absolute; /* Utiliser absolute pour positionner le texte où tu veux */
+  top: 3486px; /* Ajuste la position verticale */
+  left: 699px; /* Ajuste la position horizontale */
+  z-index: 3;
+  font-size: 18px; /* Taille de la police, modifie selon ton besoin */
+  font-weight: bold; /* Rendre le texte en gras, si nécessaire */
+  color: #000;
+  z-index: 4;
+}
+.je5{
+  width: 150px; /* Largeur du rectangle */
+  height: 35px; /* Hauteur du rectangle */
+  background-color: #CCA000; /* Couleur de fond gris clair */
+  /* Bordure noire */
+  position: absolute; /* Positionnement absolu */
+  top: 3482px; /* Ajustez cette valeur pour régler la position verticale */
+  left: 680px; /* Ajustez cette valeur pour régler la position horizontale */
+  border-radius: 10px; /* Arrondir les coins si nécessaire */
+  z-index: 3;
+}
+
+.tnd50{
+  color: #003566; /* Changez ceci pour la couleur désirée */
+  font-size: 26px; /* Taille de police, ajustez selon vos besoins */
+  font-weight: bold; /* Met le texte en gras */
+  position: absolute; /* Utiliser un positionnement absolu pour déplacer le texte */
+  top: 3405px; /* Ajustez la position verticale */
+  left: 715px; /* Centre horizontalement */
+  z-index: 3;
+}
+.seance{
+  color: #003566; /* Changez ceci pour la couleur désirée */
+  font-size: 20px; /* Taille de police, ajustez selon vos besoins */
+  font-weight: bold; /* Met le texte en gras */
+  position: absolute; /* Utiliser un positionnement absolu pour déplacer le texte */
+  top: 3442px; /* Ajustez la position verticale */
+  left: 715px; /* Centre horizontalement */
+  z-index: 3;
+}
+.bac{
+  color: #efe4e4; /* Changez ceci pour la couleur désirée */
+  font-size: 24px; /* Taille de police, ajustez selon vos besoins */
+  font-weight: bold; /* Met le texte en gras */
+  position: absolute; /* Utiliser un positionnement absolu pour déplacer le texte */
+  top: 3330px; /* Ajustez la position verticale */
+  left: 50%; /* Centre horizontalement */
+  transform: translateX(-50%); /* Centre parfaitement le texte */
+  z-index: 5; 
+}
+.rectangleab55 {
+  
+  width: 300px; /* Largeur du rectangle */
+  height: 115px; /* Hauteur du rectangle */
+  background-color: #D9D9D9; /* Couleur de fond par défaut */
+  position: absolute; /* Permet de changer la position */
+  top: 3390px; /* Position verticale */
+  left: 599px; /* Position horizontale */
+
+}
+.rectangleab555 {
+width: 300px; /* Largeur du rectangle */
+height: 230px; /* Hauteur du rectangle */
+background-color: #EFEFEF; /* Couleur de fond par défaut */
+border-bottom-left-radius: 5%; /* Arrondir le coin supérieur gauche */
+border-bottom-right-radius: 5%;
+position: absolute; /* Permet de changer la position */
+top: 3500px; /* Position verticale */
+left: 599px; /* Position horizontale */
+z-index: 0;
+}
 .partenaires {
   display: flex;
   justify-content: center;
   font-weight: bold;
-<<<<<<< HEAD
   font-size: 20px; /* Ajustez la taille de police selon vos besoins */
-  margin-top: 20px; /* Espace entre le texte FORMULS et Nos Partenaires */
+  margin-top: 1600px; /* Augmentez cette valeur pour déplacer plus vers le bas */
+  /* margin-bottom: 20px; /* Vous pouvez également ajuster le bas si nécessaire */
   color: #000; /* Couleur du texte, ajustez si nécessaire */
+  font-size: 24px;                 
+  color: #000; 
+  text-decoration: underline;
 }
-=======
-  font-size: 24px;
-  color: #000; /* Couleur du texte */
-  margin-top: 20px; /* Espace au-dessus du texte */
-  text-decoration: underline; /* Soulignement si désiré */
-  transform: translate(-130px,1000px); 
-}
-.partenaires {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Centre le texte et l'image horizontalement */
-  font-weight: bold;
-  font-size: 24px;
-  color: #000; /* Couleur du texte */
-  margin-top: 20px; /* Espace au-dessus du texte */
-  text-decoration: underline; /* Soulignement si désiré */
-}
-
-.partenaire-image-container {
-  display: flex;
-  justify-content: center; /* Centre l'image horizontalement */
-  margin-top: 20px; /* Espace au-dessus de l'image */
-}
-
-.partenaire-image {
-  width: 150px; /* Largeur de l'image */
-  height: 150px; /* Hauteur de l'image */
+.circular-image1 {
+  width: 250px; /* Largeur de l'image */
+  height: 250px; /* Hauteur de l'image */
   border-radius: 50%; /* Rend l'image circulaire */
-  object-fit: cover; /* Pour s'assurer que l'image reste proportionnelle */
-  border: 2px solid #ccc; /* Optionnel : Bordure autour de l'image */
+  border: 3px solid #CCA000; /* Ajoute un cadre autour de l'image */
+  object-fit: cover; /* Conserve les proportions de l'image */
+  position: absolute; /* Positionnement absolu par rapport à l'élément parent ou au document */
+  top: 3850px; /* Ajuste la position à partir du haut */
+  left: 100px; /* Ajuste la position à partir de la gauche */
+}
+.circular-image2 {
+  width: 250px; /* Largeur de l'image */
+  height: 250px; /* Hauteur de l'image */
+  border-radius: 50%; /* Rend l'image circulaire */
+  border: 3px solid #CCA000; /* Ajoute un cadre autour de l'image */
+  object-fit: cover; /* Conserve les proportions de l'image */
+  position: absolute; /* Positionnement absolu par rapport à l'élément parent ou au document */
+  top: 3850px; /* Ajuste la position à partir du haut */
+  left: 630px; /* Ajuste la position à partir de la gauche */
+}
+.circular-image3 {
+  width: 250px; /* Largeur de l'image */
+  height: 250px; /* Hauteur de l'image */
+  border-radius: 50%; /* Rend l'image circulaire */
+  border: 3px solid #CCA000; /* Ajoute un cadre autour de l'image */
+  object-fit: cover; /* Conserve les proportions de l'image */
+  position: absolute; /* Positionnement absolu par rapport à l'élément parent ou au document */
+  top: 3850px; /* Ajuste la position à partir du haut */
+  left: 1180px; /* Ajuste la position à partir de la gauche */
+}
+.circular-image4 {
+  width: 250px; /* Largeur de l'image */
+  height: 250px; /* Hauteur de l'image */
+  border-radius: 50%; /* Rend l'image circulaire */
+  border: 3px solid #CCA000; /* Ajoute un cadre autour de l'image */
+  object-fit: cover; /* Conserve les proportions de l'image */
+  position: absolute; /* Positionnement absolu par rapport à l'élément parent ou au document */
+  top: 4250px; /* Ajuste la position à partir du haut */
+  left: 350px; /* Ajuste la position à partir de la gauche */
+}
+.circular-image5 {
+  width: 250px; /* Largeur de l'image */
+  height: 250px; /* Hauteur de l'image */
+  border-radius: 50%; /* Rend l'image circulaire */
+  border: 3px solid #CCA000; /* Ajoute un cadre autour de l'image */
+  object-fit: cover; /* Conserve les proportions de l'image */
+  position: absolute; /* Positionnement absolu par rapport à l'élément parent ou au document */
+  top: 4250px; /* Ajuste la position à partir du haut */
+  left: 910px; /* Ajuste la position à partir de la gauche */
 }
 
 
-
-
-
-
->>>>>>> 1d0612e4e56db141e3002bcbf5e1dc7b4b0431db

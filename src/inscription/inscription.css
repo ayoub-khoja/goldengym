@@ -1,0 +1,484 @@
+.adm {
+    display: flex;
+    align-items: center; /* Centre verticalement */
+    justify-content: center; /* Centre horizontalement */
+    margin-top: 20px;
+    height: 240px;
+}
+
+.line {
+    flex: 1; /* Prend tout l'espace disponible */
+    height: 2.5px; /* Hauteur de la ligne */
+    background-color: #000; /* Couleur de la ligne */
+    margin: 0 10px; /* Espacement horizontal autour de l'image */
+}
+
+.adm img {
+    width: 150px;
+    height: 150px;
+}
+
+
+
+.rectangle1 {
+    width: 600px;                  /* Largeur du rectangle */
+    height: 600px;                 /* Hauteur du rectangle */
+    background-color: #CCA000;     /* Couleur de fond du rectangle */
+    position: absolute;            /* Positionnement absolu */
+    top: 450px;                    /* Distance du haut de la page */
+    left: 100px;                    /* Distance de la gauche de la page */
+       
+}
+.rectangle2 {
+    width: 600px;                  /* Largeur du rectangle */
+    height: 600px;                 /* Hauteur du rectangle */
+    background-color: #CCA000;     /* Couleur de fond du rectangle */
+    position: absolute;            /* Positionnement absolu */
+    top: 450px;                    /* Distance du haut de la page */
+    left: 800px;                    /* Distance de la gauche de la page */
+       
+}
+.texte-centre1 {
+    position: absolute; /* Permet de positionner l'élément par rapport à son parent ou au body */
+    top: 70%; /* Place l'élément à 50% du haut de l'écran */
+    left: 30%; /* Place l'élément à 50% de la largeur de l'écran */
+    transform: translate(-60%, -50%); /* Déplace l'élément pour le centrer parfaitement */
+    font-size: 30px;
+    color: #333;
+    font-weight: bold;
+  }
+  .texte-centre2 {
+    position: absolute; /* Permet de positionner l'élément par rapport à son parent ou au body */
+    top: 80%; /* Place l'élément à 50% du haut de l'écran */
+    left: 30%; /* Place l'élément à 50% de la largeur de l'écran */
+    transform: translate(-60%, -50%); /* Déplace l'élément pour le centrer parfaitement */
+    font-size: 30px;
+    color: #333;
+    font-weight: bold;
+  }
+  .texte-centre3{
+    position: absolute; /* Permet de positionner l'élément par rapport à son parent ou au body */
+    top: 70%; /* Place l'élément à 50% du haut de l'écran */
+    left: 30%; /* Place l'élément à 50% de la largeur de l'écran */
+    transform: translate(150%, -50%); /* Déplace l'élément pour le centrer parfaitement */
+    font-size: 30px;
+    color: #333;
+    font-weight: bold;
+  }
+  .texte-centre4 {
+    position: absolute; /* Permet de positionner l'élément par rapport à son parent ou au body */
+    top: 80%; /* Place l'élément à 50% du haut de l'écran */
+    left: 30%; /* Place l'élément à 50% de la largeur de l'écran */
+    transform: translate(125%, -50%); /* Déplace l'élément pour le centrer parfaitement */
+    font-size: 30px;
+    color: #333;
+    font-weight: bold;
+  }
+ 
+  .input-group1 {
+    position: absolute; /* Positionner l'élément de façon absolue */
+    top: 91.5%; /* Position verticale (50% de la hauteur de l'écran ou du parent) */
+    left: 24%; /* Position horizontale (50% de la largeur de l'écran ou du parent) */
+    transform: translate(-50%, -50%); /* Recentre l'élément */
+    width: 200px; /* Largeur du champ de saisie */
+    z-index: 4;
+    
+}
+
+.input-group1 input {
+    width: 100%; /* Prend toute la largeur de son conteneur */
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #f9f4f4;
+    border-radius: 5px;
+    background-color: #fbfbfb;
+    color: #333;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+.input-group1 input::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+
+.image1 {
+    width: 0px; /* Largeur de l'image */
+    height: 50px; /* Hauteur de l'image */
+    position: absolute; /* Positionnement absolu pour contrôler où l'image apparaît */
+    top: 92%; /* Position verticale - ajustable */
+    left:16%; /* Position horizontale - ajustable */
+    transform: translate(-50%, -50%); /* Recentre l'image par rapport à son point de départ */
+    z-index: 7;
+}
+.image2 {
+    width: 0px; /* Largeur de l'image */
+    height: 0px; /* Hauteur de l'image */
+    position: absolute; /* Positionnement absolu pour contrôler où l'image apparaît */
+    top: 105.5%; /* Position verticale - ajustable */
+    left:17%; /* Position horizontale - ajustable */
+    transform: translate(-50%, -50%); /* Recentre l'image par rapport à son point de départ */
+    z-index: 7;
+}
+.image3{
+    width: 0px; /* Largeur de l'image */
+    height: 0px; /* Hauteur de l'image */
+    position: absolute; /* Positionnement absolu pour contrôler où l'image apparaît */
+    top: 105.5%; /* Position verticale - ajustable */
+    left:47%; /* Position horizontale - ajustable */
+    transform: translate(-50%, -50%); /* Recentre l'image par rapport à son point de départ */
+    z-index: 7;
+}
+.image4{
+    width: 0px; /* Largeur de l'image */
+    height: 0px; /* Hauteur de l'image */
+    position: absolute; /* Positionnement absolu pour contrôler où l'image apparaît */
+    top: 103%; /* Position verticale - ajustable */
+    left:62%; /* Position horizontale - ajustable */
+    transform: translate(-50%, -50%); /* Recentre l'image par rapport à son point de départ */
+    z-index: 7;
+}
+.image5{
+    width: 0px; /* Largeur de l'image */
+    height: 0px; /* Hauteur de l'image */
+    position: absolute; /* Positionnement absolu pour contrôler où l'image apparaît */
+    top: 128%; /* Position verticale - ajustable */
+    left:63%; /* Position horizontale - ajustable */
+    transform: translate(-50%, -50%); /* Recentre l'image par rapport à son point de départ */
+    z-index: 7;
+}
+.image6{
+    width: 0px; /* Largeur de l'image */
+    height: 0px; /* Hauteur de l'image */
+    position: absolute; /* Positionnement absolu pour contrôler où l'image apparaît */
+    top: 118%; /* Position verticale - ajustable */
+    left:63%; /* Position horizontale - ajustable */
+    transform: translate(-50%, -50%); /* Recentre l'image par rapport à son point de départ */
+    z-index: 7;
+}
+.image7{
+    width: 0px; /* Largeur de l'image */
+    height: 0px; /* Hauteur de l'image */
+    position: absolute; /* Positionnement absolu pour contrôler où l'image apparaît */
+    top: 105%; /* Position verticale - ajustable */
+    left:49.5%; /* Position horizontale - ajustable */
+    transform: translate(-50%, -50%); /* Recentre l'image par rapport à son point de départ */
+    z-index: 7;
+}
+
+
+
+.input-group2 {
+    position: absolute; /* Positionner l'élément de façon absolue */
+    top: 102%; /* Position verticale (50% de la hauteur de l'écran ou du parent) */
+    left: 24%; /* Position horizontale (50% de la largeur de l'écran ou du parent) */
+    transform: translate(-50%, -50%); /* Recentre l'élément */
+    width: 200px; /* Largeur du champ de saisie */
+    z-index: 3;
+}
+
+.input-group2 input {
+    width: 100%; /* Prend toute la largeur de son conteneur */
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #333;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+.input-group2 input::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+.input-group3 {
+    position: absolute; /* Positionner l'élément de façon absolue */
+    top: 92%; /* Position verticale (50% de la hauteur de l'écran ou du parent) */
+    left: 70%; /* Position horizontale (50% de la largeur de l'écran ou du parent) */
+    transform: translate(-50%, -50%); /* Recentre l'élément */
+    width: 200px; /* Largeur du champ de saisie */
+    z-index: 3;
+}
+
+.input-group3 input {
+    width: 100%; /* Prend toute la largeur de son conteneur */
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #333;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+.input-group3 input::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+.submit-btn1{
+    padding: 12px 20px; /* Taille du bouton avec espace à gauche/droite et en haut/bas */
+    font-size: 16px; /* Taille de la police */
+    border: none; /* Supprime la bordure par défaut */
+    border-radius: 5px; /* Coins arrondis */
+    background-color: #003566; /* Couleur de fond du bouton (bleu) */
+    color: white; /* Couleur du texte */
+    cursor: pointer; /* Curseur en forme de main lorsqu'on passe dessus */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Animation douce pour la couleur de fond et l'effet de survol */
+    position: absolute; /* Positionnement absolu */
+    top: 120%; /* Position verticale, ajustable selon ton besoin */
+    left: 25%; /* Position horizontale, ajustable selon ton besoin */
+    transform: translate(-50%, -50%); /* Centrer précisément le bouton */
+}
+.submit-btn2{
+    padding: 12px 20px; /* Taille du bouton avec espace à gauche/droite et en haut/bas */
+    font-size: 16px; /* Taille de la police */
+    border: none; /* Supprime la bordure par défaut */
+    border-radius: 5px; /* Coins arrondis */
+    background-color: #003566; /* Couleur de fond du bouton (bleu) */
+    color: white; /* Couleur du texte */
+    cursor: pointer; /* Curseur en forme de main lorsqu'on passe dessus */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Animation douce pour la couleur de fond et l'effet de survol */
+    position: absolute; /* Positionnement absolu */
+    top: 135%; /* Position verticale, ajustable selon ton besoin */
+    left: 75%; /* Position horizontale, ajustable selon ton besoin */
+    transform: translate(-50%, -50%); /* Centrer précisément le bouton */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.input-group4 {
+    position: absolute; /* Positionner l'élément de façon absolue */
+    top: 102%; /* Position verticale (50% de la hauteur de l'écran ou du parent) */
+    left: 70%; /* Position horizontale (50% de la largeur de l'écran ou du parent) */
+    transform: translate(-50%, -50%); /* Recentre l'élément */
+    width: 200px; /* Largeur du champ de saisie */
+    z-index: 3;
+}
+
+.input-group4 input {
+    width: 100%; /* Prend toute la largeur de son conteneur */
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #333;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+.input-group4 input::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+.input-group6 {
+    position: absolute; /* Positionner l'élément de façon absolue */
+    top: 125%; /* Position verticale (50% de la hauteur de l'écran ou du parent) */
+    left: 71%; /* Position horizontale (50% de la largeur de l'écran ou du parent) */
+    transform: translate(-50%, -50%); /* Recentre l'élément */
+    width: 230px; /* Largeur du champ de saisie */
+    z-index: 3;
+}
+
+.input-group6 input {
+    width: 100%; /* Prend toute la largeur de son conteneur */
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #333;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+.input-group6 input::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+
+/* Style du rectangle */
+.rectanglein1 {
+    width: 300px; /* Largeur du rectangle */
+    height: 55px; /* Hauteur du rectangle */
+    background-color: white; /* Couleur de fond blanche */
+   
+    position: absolute; /* Permet de positionner le rectangle n'importe où */
+    top: 650px; /* Position verticale ajustable */
+    left: 200px; /* Position horizontale ajustable */
+    z-index: 2; /* Assurer que le rectangle soit au-dessus des autres éléments */
+    border-radius: 20px;
+}
+.rectanglein2 {
+    width: 300px; /* Largeur du rectangle */
+    height: 55px; /* Hauteur du rectangle */
+    background-color: white; /* Couleur de fond blanche */
+   
+    position: absolute; /* Permet de positionner le rectangle n'importe où */
+    top: 730px; /* Position verticale ajustable */
+    left: 200px; /* Position horizontale ajustable */
+    z-index: 2; /* Assurer que le rectangle soit au-dessus des autres éléments */
+    border-radius: 20px;
+}
+.rectanglein3 {
+    width: 300px; /* Largeur du rectangle */
+    height: 55px; /* Hauteur du rectangle */
+    background-color: white; /* Couleur de fond blanche */
+   
+    position: absolute; /* Permet de positionner le rectangle n'importe où */
+    top: 650px; /* Position verticale ajustable */
+    left: 900px; /* Position horizontale ajustable */
+    z-index: 2; /* Assurer que le rectangle soit au-dessus des autres éléments */
+    border-radius: 20px;
+}
+.rectanglein4 {
+    width: 300px; /* Largeur du rectangle */
+    height: 55px; /* Hauteur du rectangle */
+    background-color: white; /* Couleur de fond blanche */
+   
+    position: absolute; /* Permet de positionner le rectangle n'importe où */
+    top: 900px; /* Position verticale ajustable */
+    left: 900px; /* Position horizontale ajustable */
+    z-index: 2; /* Assurer que le rectangle soit au-dessus des autres éléments */
+    border-radius: 20px;
+}
+.rectanglein5 {
+    width: 300px; /* Largeur du rectangle */
+    height: 55px; /* Hauteur du rectangle */
+    background-color: white; /* Couleur de fond blanche */
+   
+    position: absolute; /* Permet de positionner le rectangle n'importe où */
+    top: 730px; /* Position verticale ajustable */
+    left: 900px; /* Position horizontale ajustable */
+    z-index: 2; /* Assurer que le rectangle soit au-dessus des autres éléments */
+    border-radius: 20px;
+}
+.rectanglein6 {
+    width: 300px; /* Largeur du rectangle */
+    height: 55px; /* Hauteur du rectangle */
+    background-color: white; /* Couleur de fond blanche */
+   
+    position: absolute; /* Permet de positionner le rectangle n'importe où */
+    top: 820px; /* Position verticale ajustable */
+    left: 900px; /* Position horizontale ajustable */
+    z-index: 2; /* Assurer que le rectangle soit au-dessus des autres éléments */
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.input-group5 {
+    position: absolute; /* Positionner l'élément de façon absolue */
+    top: 115%; /* Position verticale (50% de la hauteur de l'écran ou du parent) */
+    left: 70%; /* Position horizontale (50% de la largeur de l'écran ou du parent) */
+    transform: translate(-50%, -50%); /* Recentre l'élément */
+    width: 200px; /* Largeur du champ de saisie */
+    z-index: 3;
+}
+
+.input-group5 input {
+    width: 100%; /* Prend toute la largeur de son conteneur */
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #333;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+.input-group5 input::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+  

@@ -1,0 +1,78 @@
+.footer {
+    background-color: black;
+    color: rgb(21, 19, 19);
+    text-align: center;
+    padding: 140px ;
+    position: relative
+    ;
+    bottom: 300;
+    width: 100%;
+    font-size: 14px;
+    left: 0;
+    top: 750px;
+}
+.logo{
+    position: absolute;
+    top: 4660px;
+    left: 10;
+    width: 200px;
+}
+.golden1{
+    position: absolute;
+    top: 4670px;
+    left: 27%; /* Centre horizontalement */
+    transform: translateX(-50%); /* Ajuste le centrage exact */
+    color: rgb(247, 247, 237); /* Couleur du texte */
+    font-size: 23px;
+    font-weight: bold;
+}
+.descr{
+    position: absolute;
+    top: 4720px;
+    left: 27%; /* Centre horizontalement */
+    transform: translateX(-50%); /* Ajuste le centrage exact */
+    color: rgb(247, 247, 237); /* Couleur du texte */
+    font-size: 20px;
+}
+.logo1{
+    position: relative;
+    top: 490px;
+    left: 945px;
+    width: 50px;  
+}
+.logo2{
+    position: relative;
+    top: 570px;
+    left: 890px;
+    width: 70px;  
+}
+.logo3{
+    position: relative;
+    top: 650px;
+    left: 830px;
+    width: 50px;  
+}
+.loc1{
+    position: absolute;
+    top: 3500px;
+    left: 72%; /* Centre horizontalement */
+    transform: translateX(-50%); /* Ajuste le centrage exact */
+    color: rgb(247, 247, 237); /* Couleur du texte */
+    font-size: 15px;
+}
+.tel1{
+    position: absolute;
+    top: 4500px;
+    left: 69%; /* Centre horizontalement */
+    transform: translateX(-50%); /* Ajuste le centrage exact */
+    color: rgb(247, 237, 238); /* Couleur du texte */
+    font-size: 15px;
+}
+.email1{
+    position: absolute;
+    top: 4845px;
+    left: 73%; /* Centre horizontalement */
+    transform: translateX(-50%); /* Ajuste le centrage exact */
+    color: rgb(247, 247, 237); /* Couleur du texte */
+    font-size: 15px;
+}
